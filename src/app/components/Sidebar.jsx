@@ -71,7 +71,7 @@ const Sidebar = () => {
 
       {/* Sidebar for Mobile */}
       <div
-        className={`fixed top-0 left-0 h-full w-16 bg-gray-800 text-white flex flex-col items-center py-4 transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-0 left-0 h-full w-64 bg-gray-800 text-white flex flex-col items-center py-4 transition-transform duration-300 ease-in-out md:hidden z-40 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -84,35 +84,35 @@ const Sidebar = () => {
         <Link
           href="/"
           title="Home"
-          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors"
+          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mb-4"
         >
           <FaHome className="text-2xl" />
         </Link>
         <Link
           href="/experience"
           title="Experience"
-          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mt-4"
+          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mb-4"
         >
           <FaBriefcase className="text-2xl" />
         </Link>
         <Link
           href="/projects"
           title="My Projects"
-          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mt-4"
+          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mb-4"
         >
           <FaProjectDiagram className="text-2xl" />
         </Link>
         <Link
           href="https://github.com/Jash728"
           title="GitHub"
-          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mt-4"
+          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mb-4"
         >
           <FaGithub className="text-2xl" />
         </Link>
         <Link
           href="/resume.pdf"
           title="Download Resume"
-          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mt-4"
+          className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mb-4"
           download
         >
           <FaFileDownload className="text-2xl" />
@@ -122,7 +122,7 @@ const Sidebar = () => {
       {/* Overlay for Mobile */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
+          className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
           onClick={toggleSidebar}
         ></div>
       )}
