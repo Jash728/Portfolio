@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Medium Clone",
+    "description": "A blogging platform where people can read blogs from others and publish their own.",
+    "detailedExplanation": "A blogging platform with user authentication, allowing users to register, log in, and manage their blogs. Browse and filter blogs by categories or search keywords. Logged-in users can add, edit, or delete their own blogs, and view all available blogs.",
+    "techStacks": ["Frontend: React with TypeScript", "Backend: Cloudflare Workers", "Validation: Zod for schema validation and type inference", "ORM: Prisma with connection pooling", "Database: PostgreSQL"],
+    "screenshots": [
+      "/images/medium/Login.png",
+      "/images/medium/Register.png",
+      "/images/medium/Homepage.png",
+      "/images/medium/loggedinuserblogs.png",
+      "/images/medium/publishpost.png"
+    ],
+    "sourceCodeUrl": "https://github.com/Jash728/Medium-Clone",
+    "deployedUrl": "https://medium-clone-xi-gules.vercel.app/",
+    "image": "/images/medium/bg.jpg"
+  },
+  {
+    "title": "Task Management",
+    "description": "A task management app for tracking tasks by priority and status",
+    "detailedExplanation": "A task management app with user authentication (register, login, logout). Manage tasks with add, update, and delete options. Filter tasks by category, status, or due date, and search by title or description. Includes a light-dark theme toggle.",
+    "techStacks": ["React", " Redux", "Tailwind CSS"],
+    "screenshots": [
+      "/images/tasks/login.png",
+      "/images/tasks/register.png",
+      "/images/tasks/Main.png",
+      "/images/tasks/darkmain.png",
+      "/images/tasks/addnewtaskmodal.png"
+    ],
+    "sourceCodeUrl": "https://github.com/Jash728/Task-Management",
+    "deployedUrl": "https://advanced-task-management.vercel.app/",
+    "image": "/images/tasks/bg.jpg"
+  },
+  {
+    "title": "PayTM",
+    "description": "PayTM like application that let’s users send money to each other given an initial dummy balance",
+    "detailedExplanation": "A PayTM-like app that allows users to send money to each other with an initial dummy balance. It includes authentication and a search feature to find users by name for easy money transfers.",
+    "techStacks": ["React.js", "Tailwind", "zod - Input validation", "Node.js", "MongoDB", "Express"],
+    "screenshots": [
+      "/images/paytm/register.png",
+      "/images/paytm/login.png",
+      "/images/paytm/main.png",
+      "/images/paytm/sendmoney.png"
+    ],
+    "sourceCodeUrl": "https://github.com/Jash728/Paytm",
+    "deployedUrl": "https://fascinating-torte-154b87.netlify.app/",
+    "image": "/images/paytm/bg.jpg"
+  },
+  {
+    "title": "Friendify",
+    "description": "Friendify is fully responsive and user friendly social media application",
+    "detailedExplanation": "Friendify allows user  to upload photos categorywise and also use can save and comment on any other user post. Also it provide google authentication for login and logout.",
+    "techStacks": ["React.js for frontend", "Sanity for backend"],
+    "screenshots": [
+      "/images/friendify/authentication.png",
+      "/images/friendify/home.png",
+      "/images/friendify/profile.png"
+    ],
+    "sourceCodeUrl": "https://github.com/Jash728/Friendify",
+    "deployedUrl": "https://friedify.netlify.app/login",
+    "image": "/images/friendify/authentication.png"
+  },
+  {
+    "title": "Admin Panel",
+    "description": "Built an admin panel application with basic data management features.",
+    "detailedExplanation": "Developed a simple admin panel application that includes core functionalities such as user authentication and role-based access control (RBAC) for secure access. The application integrates with APIs to fetch and manage data efficiently. It provides basic data management features, allowing administrators to perform CRUD operations seamlessly.",
+    "techStacks": ["React.js", "Node.js", "MySql"],
+    "screenshots": [
+      "/images/adminpanel/registration.png",
+      "/images/adminpanel/login.png",
+      "/images/adminpanel/admin.png",
+      "/images/adminpanel/projectmanager.png",
+      "/images/adminpanel/sales.png"
+    ],
+    "sourceCodeUrl": "https://github.com/Jash728/adminpanel",
+    "deployedUrl": "https://profound-churros-1d992a.netlify.app/",
+    "image": "/images/adminpanel/bg.jpg"
+  }
+]
