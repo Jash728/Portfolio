@@ -10,7 +10,7 @@ const HeroSection = () => {
           Full Stack Developer
         </p>
         <h1 className="text-5xl lg:text-7xl font-extrabold mb-6 leading-tight text-gray-800 flex items-center">
-          I'm Jash Shah
+        I&apos;m Jash Shah
           <span
             className="ml-4 text-6xl shake"
             role="img"

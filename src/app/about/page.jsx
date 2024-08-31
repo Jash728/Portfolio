@@ -33,10 +33,10 @@ const About = () => {
         <div className="flex flex-col items-center justify-center py-12">
           <h1 className="text-4xl lg:text-5xl font-extrabold mb-4">About Me</h1>
           <p className="text-lg lg:text-xl text-center max-w-3xl mb-8">
-            Hi, I'm Jash Shah, a passionate full-stack developer with a knack
+            Hi, I&apos;m Jash Shah, a passionate full-stack developer with a knack
             for crafting elegant and functional solutions. I specialize in
             developing comprehensive web applications and am currently exploring
-            the fascinating world of data science. Let's work together to turn
+            the fascinating world of data science. Let&apos;s work together to turn
             ideas into reality!
           </p>
         </div>
