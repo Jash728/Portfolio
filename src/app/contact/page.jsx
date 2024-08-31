@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="max-w-2xl bg-white p-10 rounded-2xl shadow-xl border border-gray-200">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-6">Contact Me</h1>
         <p className="text-lg text-gray-600 mb-8">
-          I'd love to hear from you. You can reach out to me using the following contact details:
+          I`&apos;`d love to hear from you. You can reach out to me using the following contact details:
         </p>
         
         <div className="mb-6">
