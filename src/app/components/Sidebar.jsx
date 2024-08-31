@@ -25,7 +25,7 @@ const Sidebar = () => {
           onClick={toggleSidebar}
           className="text-white text-3xl p-2 rounded-full bg-gray-800 hover:bg-gray-700 focus:outline-none"
         >
-          {isOpen ? <FaTimes /> : <FaBars />}
+          <FaBars />
         </button>
       </div>
 
