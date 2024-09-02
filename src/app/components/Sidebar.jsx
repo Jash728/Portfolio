@@ -110,7 +110,7 @@ const Sidebar = () => {
           <FaGithub className="text-2xl" />
         </Link>
         <Link
-          href="/resume.pdf"
+          href="/Jash_Resume.pdf"
           title="Download Resume"
           className="flex items-center justify-center p-4 rounded-full hover:bg-gray-700 transition-colors mb-4"
           download
