@@ -1,5 +1,32 @@
 [
   {
+    "title": "CareerX",
+    "description": "A job portal where candidates can apply for jobs and recruiters can manage applications.",
+    "detailedExplanation": "CareerX is a job portal that allows candidates to browse and apply for jobs, while recruiters can post job opportunities, view applications, and manage candidates. Features include Google Authentication, job filters, real-time notifications, and membership options for both candidates and recruiters.",
+    "techStacks": [
+      "Frontend: Next.js",
+      "Authentication: Clerk with Google Authentication",
+      "Backend: MongoDB for data storage",
+      "UI: ShadCN UI for component styling",
+      "Styling: Tailwind CSS for responsive and modern styling",
+      "Deployment: Vercel for seamless hosting and deployment"
+    ],
+    "screenshots": [
+      "/images/careerx/account.png",
+      "/images/careerx/activity.png",
+      "/images/careerx/authentication.png",
+      "/images/careerx/companies.png",
+      "/images/careerx/feed.png",
+      "/images/careerx/main.png",
+      "/images/careerx/membership.png",
+      "/images/careerx/recruiterjob.png"
+    ],
+    "sourceCodeUrl": "https://github.com/Jash728/Job-Portal",
+    "deployedUrl": "https://careerx7.vercel.app/",
+    "image": "/images/careerx/main.png"
+  },
+  
+  {
     "title": "Medium Clone",
     "description": "A blogging platform where people can read blogs from others and publish their own.",
     "detailedExplanation": "A blogging platform with user authentication, allowing users to register, log in, and manage their blogs. Browse and filter blogs by categories or search keywords. Logged-in users can add, edit, or delete their own blogs, and view all available blogs.",
